@@ -33,7 +33,7 @@ To produce representations execute byol training file :
 
 Then in the evaluation files specify the path to byol's weights saved previously in PATH_BYOL_WEIGHT  and run :
 
-` python linear_evaluation_classic_to_multiple.py `
+` python fine_tuning_evaluation_base_variant.py`
 
 to obtain the accuracy of the representations
 
