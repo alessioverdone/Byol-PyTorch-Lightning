@@ -21,10 +21,8 @@ Evaluation folder is divided in linear evaluation and fine-tuning folder and in 
    4. evaluation on combined representations extracted from multiple loss architecture `...evaluation_multiple_loss_variant.py`
 
 ## Prerequisites
-pytorch_lightning 
-kornia 
-wandb
-multiprocessing
+The code is implemented in pytorch-lightning, a new deep learning framework based on torch.
+
 
 ## Running the tests
                                              
