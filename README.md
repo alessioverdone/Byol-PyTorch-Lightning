@@ -27,11 +27,11 @@ The code is implemented in pytorch-lightning, a new deep learning framework base
 ## Running the tests
                                              
 We perform our experiments on CIFAR10 dataset. 
-To produce representations execute byol training file 
+To produce representations execute byol training file :
 
 ` python byol_training.py `
 
-Then in the evaluation files specify the path to byol's weights saved previously in PATH_TO_SAVE_DATA and run like
+Then in the evaluation files specify the path to byol's weights saved previously in PATH_BYOL_WEIGHT  and run :
 
 ` python linear_evaluation_classic_to_multiple.py `
 
